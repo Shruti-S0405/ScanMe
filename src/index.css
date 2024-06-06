@@ -1,0 +1,135 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #cccc;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0 auto;
+}
+
+button {
+  border-radius: 10px;
+  border: 2px solid transparent;
+  padding: 0.3em 1.0em;
+  font-size: .6em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #60BF9C;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin-top: 10px;
+  color: black;
+}
+
+button:hover {
+  /* border-color: #DEF244; */
+  border: 2px solid #DEF244;
+
+  
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.qrcode-box {
+  background-color: #ffffff;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 2px;
+  display: flex;
+}
+
+.form-style {
+  display:flex;
+}
+
+.base {
+  display: flex;
+  align-items: center;
+  place-items: center;
+  place-content: center;
+  justify-content: center;
+  background-color: #DEF244;
+  padding: 1.5px;
+  border-radius: 10px;
+  scale: 1.5;
+}
+
+.base-2 {
+  display: flex;
+  align-items: center;
+  place-items: center;
+  place-content: center;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 2px;
+  scale: 1.2;
+}
+
+.background {
+  background-image: url("/bg.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+
+.blur {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(4px);
+  border-right: 1px solid whitesmoke;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  place-items: center;
+  place-content: center;
+  justify-content: center;
+}
+
+.blur-2 {
+  background: rgb(0, 0, 0);
+  backdrop-filter: blur(4px);
+  border-right: 1px solid whitesmoke;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  place-items: center;
+  place-content: center;
+  justify-content: center;
+}
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #1D402F;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  gap: 10px;
+}
+
+#input{
+  color: #000000;
+  background-color: #60BF9C;
+  border-radius: 5px;
+}
+
+input:hover {
+  border: 2px solid #DEF244;
+}

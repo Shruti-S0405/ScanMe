@@ -18,7 +18,6 @@ ScanMe is a project that generates Qr-Code for the input you provide.
 
 - Deployment:
     - Cloudflare Pages
-    - Cloudflare Workers
     - Wrangler
 
 ### Project Setup
